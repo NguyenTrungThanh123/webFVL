@@ -1,0 +1,152 @@
+.sidebar{
+    background-color: #f0f0f0;
+    height: auto;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    
+}
+
+.icon-facebook{
+    font-size: 2rem;
+    padding-right: 7px;
+    position: relative;
+    top: 2px;
+    color: #3c5c99 ;
+}
+.logo-facebook{
+    padding: 10px 0px;
+}
+.logo-facebook a{
+    font-size: 1.3rem;
+    color: #f26522;
+    font-weight: bold;
+}
+.link-FVL{
+    padding: 0px 20px;
+}
+.link-TPL{
+    padding-left: 2px;
+}
+
+.sidebar-image{
+    width: 80%;
+    max-width: 80%;
+    display: block;
+    height: 172.68px;
+    border-radius: 2px;
+    padding-top: 10px;
+    margin: auto;
+    object-fit: cover;
+}
+.sectionbar{
+    padding: 0px 10px;  
+
+}
+.paragraph{
+    padding-bottom: 45px;
+}
+.sectionbar h1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dfdfdf ;
+}
+.sectionbar .title-first{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dfdfdf ;
+}
+
+.sectionbar p{
+    line-height: 2rem;
+    padding: 20px 0px;
+    text-align: justify;
+}
+.sectionbar .sectionbar-btn{
+    margin: 10px 0px;
+   
+}
+.sectionbar .sectionbar-btn a{
+    padding: 10px 20px;
+    background-color: #e3e3e3 ;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    /* box-shadow: 2px 4px #f3f3f3; */
+    /* border: 1px solid #666; */
+}
+.sectionbar .sectionbar-btn a:hover{
+    opacity: 0.9;
+    color: #f26522;
+}
+
+#para-actor{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    float: right;
+    font-style: italic;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+.modal_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: block;
+}
+.modal_body{
+    --growth-from:0.7;
+    --growth-to: 1;
+    
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    border-radius: 5px;
+    animation: growth linear 0.1s;
+    padding: 30px 30px;
+    background-color: #ebebeb;
+
+}
+.modal_body img{
+    height: 323px;
+    width: 809px;
+    
+}
+@keyframes growth{
+    from {
+        transform: scale(var(--growth-from));
+    }
+    to{
+        transform: scale(var(--growth-to));
+    }
+}
+
+.modal-input:checked ~ .modal_overlay{
+    display: none;
+}
+.modal-input:checked ~ .modal_body{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+.modal_close{
+    font-size: 3rem;
+    color: #666;
+    position: absolute;
+    top: 0rem;
+    right: 0.4rem;
+   
+}
+.modal_close:hover{
+    cursor: pointer;
+}
