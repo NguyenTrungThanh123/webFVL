@@ -20,6 +20,7 @@
     margin: auto;
     border-radius: 5px;
     height: 265px;
+    object-fit: contain;
 }
 .update-content-event h4{
     font-size: 1.6rem;

@@ -24,13 +24,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
     margin: 0px;
     position: fixed;
-    width: 1202px;
+    width: 100%;
    border-bottom: 1px solid rgb(241, 239, 239);
    padding: 6px 0px;
-   line-height: 2.1rem;
+   line-height: 3rem;
 
 }
 .nav_pc{
@@ -51,7 +50,7 @@ a{
     color: #333;
     display: block;
     font-weight: bold ;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     
 }
 ul{
@@ -176,10 +175,60 @@ header.sticky .nav_list a{
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 20px 0px;
     background-color: #f7f7f9;
     border-radius: 5px;
     margin-top: 5px;
+    padding: 10px 10px;
+}
+.footer_info{
+    padding-bottom: 10px;
+}
+.footer .info{
+    width: 100%;
+    text-align: left;
+    padding: 0px 10px;
+}
+.footer .info p{
+    text-align: left;
+    padding: 4px 0px;
+}
+.footer .info h4{
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #dfdfdf;
+    color: #f26522;
+}
+.footer_info-icon{
+    padding-right: 10px;
+}
+.footer_logo-facebook{
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+.footer_link-FVL{
+    padding: 10px 12px;
+}
+
+.footer_btn-apply{
+    background-color: #f26522;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+.footer_btn-apply a{
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+.footer_img-iso img{
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
 }
 span{
     font-weight: bold;
@@ -194,7 +243,6 @@ p{
 .footer p,
 .footer p a{
     color: #3d3c3c;
-    font-size: 1.6rem !important;
     text-align: center;
 }
 .footer p a:hover{

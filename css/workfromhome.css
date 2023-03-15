@@ -1,0 +1,56 @@
+.banner{
+    background: url(../images/logo/wfh.png) no-repeat;
+    min-height: 340px;
+    width: 100%;
+    background-size: 1202px;
+    background-position-x: 1.2rem;
+    margin-top: 56px;
+
+}
+.content {
+    padding: 10px 0px;
+}
+.content .title{
+    color: #f26522;
+    text-align: center;
+    width: 1202px;
+}
+.content_main{
+    padding: 10px 12px;
+    width: 1202px;
+}
+
+.paragraph p{
+    font-size: 1.6rem;
+    padding: 7px 10px;
+}
+.paragraph h2{
+    padding: 30px 10px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #f26522;
+}
+.paragraph a{
+    margin: 0px 10px;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #f26522;
+    border-radius: 5px;
+    padding: 10px 30px;
+    display: block;
+    width: 150px;
+    text-align: center;
+}
+
+.paragraph_icon{
+    padding-right: 10px;
+}
+.content_main .image .image_small img {
+    height: 130px;
+    width: 225px;
+}
+.content_main .image .image_big img {
+    width: 480px;
+    height: 130px;
+}
