@@ -47,7 +47,7 @@
     text-align: center;
 }
 .sidebar-link img{
-    width: 80%;
+    width: 100%;
     height: auto;
     display: block;
     margin: auto;
@@ -59,7 +59,7 @@
     margin-top:20px;
     border-radius: 5px;
     font-size: 1.6rem;
-    padding: 0px 10px;
+    padding: 35px 10px;
 
 }
 
