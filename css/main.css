@@ -30,7 +30,7 @@
    border-bottom: 1px solid rgb(241, 239, 239);
    padding: 6px 0px;
    line-height: 3rem;
-
+    background-color: #fff;
 }
 .nav_pc{
     height: auto;
@@ -175,7 +175,7 @@ header.sticky .nav_list a{
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    background-color: #f7f7f9;
+    background-color: rgb(79, 79, 79);
     border-radius: 5px;
     margin-top: 5px;
     padding: 10px 10px;
@@ -191,6 +191,10 @@ header.sticky .nav_list a{
 .footer .info p{
     text-align: left;
     padding: 4px 0px;
+    color: #fff;
+}
+.footer span{
+    color: #fff;
 }
 .footer .info h4{
     font-size: 1.6rem;
@@ -208,7 +212,17 @@ header.sticky .nav_list a{
 .footer_link-FVL{
     padding: 10px 12px;
 }
-
+.footer_logo-facebook a {
+    color: #fff;
+}
+.footer_logo-facebook img{
+    height: 16px;
+    width: 16px;
+    
+}
+.footer_logo-facebook a:hover {
+    cursor: pointer;
+}
 .footer_btn-apply{
     background-color: #f26522;
     padding: 10px 10px;

@@ -2,6 +2,15 @@
 /* .tab-content .tab-pane p{
     font-size: 1.6rem;
 } */
+.banner{
+    background: url(../images/FVL-Office.jpg) no-repeat;
+    min-height: 340px;
+    width: 100%;
+    background-size: 1202px;
+    background-position-x: 1.2rem;
+    margin-top: 56px;
+
+}
 .tab-pane-paragraph{
     padding-bottom: 10px;
 }
@@ -21,7 +30,6 @@
 /* Our Offices */
 .our_offices img{
     margin-bottom: 20px;
-    height: 435px; 
     width: 100%;
     object-fit: contain;
 }
