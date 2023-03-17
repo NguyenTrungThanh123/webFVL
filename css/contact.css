@@ -41,10 +41,12 @@
 
 .sidebar-content .sidebar-link{
     padding: 10px 0px;
+    
 }
 .sidebar-link p{
     padding: 10px 0px;
     text-align: center;
+    font-size: 1.6 rem;
 }
 .sidebar-link img{
     width: 100%;
@@ -56,36 +58,12 @@
 
 /* sectionbar */
 .sectionbar{
-    margin-top:20px;
+    
     border-radius: 5px;
     font-size: 1.6rem;
-    padding: 35px 10px;
+    padding: 17px 10px;
 
 }
-
-.sectionbar-img{
-    padding: 10px 0px;
-}
-.sectionbar-img img{
-    display: block;
-    width: 100%;
-    margin: auto;
-    border-radius: 5px;
-}
-.sectionbar-link{
-    text-decoration:underline;
-    padding: 10px 0px   ;
-
-}
-.sectionbar-link li {
-    padding-bottom: 10px;
-}
-.sectionbar-icon{
-    padding-right: 10px;
-}
-.sectionbar-info_numberphone{
-    padding: 5px 10px;
-}
-.sectionbar-info_company{
-    padding: 10px 0px 5px;
+.sectionbar img{
+    width: 80%;
 }
