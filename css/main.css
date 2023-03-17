@@ -30,7 +30,8 @@
    border-bottom: 1px solid rgb(241, 239, 239);
    padding: 6px 0px;
    line-height: 3rem;
-    background-color: #fff;
+   background-color: #fff;
+   
 }
 .nav_pc{
     height: auto;
@@ -165,7 +166,10 @@ header.sticky .nav_list a{
 }
 
 
-
+video{
+    position: relative;
+    z-index: -1;
+}
 
 /* Content */
 
