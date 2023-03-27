@@ -126,3 +126,8 @@
     padding-top: 12px;
     object-fit: cover;
 }
+/* Our Customers */
+
+.our_customers img{
+    width: 100%;
+}

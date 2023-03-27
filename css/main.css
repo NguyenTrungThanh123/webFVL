@@ -216,6 +216,9 @@ video{
 .footer_link-FVL{
     padding: 10px 12px;
 }
+.footer_link-TPL{
+    padding-bottom: 10px;
+}
 .footer_logo-facebook a {
     color: #fff;
 }
@@ -226,6 +229,7 @@ video{
 }
 .footer_logo-facebook a:hover {
     cursor: pointer;
+    color: #f26522;
 }
 .footer_btn-apply{
     background-color: #f26522;
