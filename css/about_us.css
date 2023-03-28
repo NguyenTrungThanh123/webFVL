@@ -128,6 +128,44 @@
 }
 /* Our Customers */
 
-.our_customers img{
+.our_customers .spotlight{
     width: 100%;
+    display: block;
+    margin: auto;
+}
+.sidebar h1{
+    padding: 20px 0px;
+    border-bottom: 1px solid #dfdfdf ;
+}
+.sidebar-content{
+    display: block;
+    font-size: 1.6rem;
+    padding: 10px 0px;
+    justify-content: center;
+    line-height: 2rem;
+
+
+}
+.sidebar-content_main{
+    padding: 10px 0px;
+}
+.sidebar-content_main p{
+    text-align: justify;
+}
+.sidebar-content_main .author{
+    padding: 10px 0px;
+    float: right;
+    font-size: 1.3rem;
+}
+.sidebar-content_main img{
+    display: block;
+    margin: auto;
+   
+}
+.our_customers h1 {
+    text-align: center;
+    /* color: #f26522; */
+    padding: 10px 0px;
+    line-height: 2.5rem;
+    font-size: 1.3rem;
 }
