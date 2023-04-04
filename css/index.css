@@ -1,11 +1,12 @@
 .sidebar{
     background-color: #f0f0f0;
-    height: auto;
     border-radius: 5px;
     padding: 27px 0px;
     
 }
-
+.banner-img img{
+    width: -webkit-fill-available;
+}
 .icon-facebook{
     font-size: 2rem;
     padding-right: 7px;
@@ -28,9 +29,8 @@
     padding-left: 2px;
 }
 
-.sidebar-image{
+.sidebar img{
     width: 80%;
-    max-width: 80%;
     display: block;
     height: 172.68px;
     border-radius: 2px;
@@ -38,31 +38,26 @@
     margin: auto;
     object-fit: cover;
 }
-.sectionbar{
-    padding: 0px 10px;  
-
+.title1{
+    background-image: url("../images/Index/orangebg.jpg");
 }
-.paragraph{
-    padding-bottom: 45px;
-}
-.sectionbar h1{
-    padding-top: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #dfdfdf ;
+.title1 p, h1, span{
+    color: #f0f0f0;
 }
 .sectionbar .title-first{
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #dfdfdf ;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 .sectionbar p{
     line-height: 2rem;
-    padding: 20px 0px;
     text-align: justify;
 }
 .sectionbar .sectionbar-btn{
-    margin: 10px 0px;
+    margin: 25px 0px;
    
 }
 .sectionbar .sectionbar-btn a{
@@ -70,7 +65,7 @@
     background-color: #e3e3e3 ;
     border-radius: 5px;
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: #333;
     /* box-shadow: 2px 4px #f3f3f3; */
@@ -80,7 +75,14 @@
     opacity: 0.9;
     color: #f26522;
 }
-
+.paragraph-right{
+    width: 50%;
+    float: right;
+}
+.paragraph{
+    width: 50%;
+    float: left;
+}
 #para-actor{
     padding-top: 0px;
     padding-bottom: 20px;
@@ -150,3 +152,12 @@
 .modal_close:hover{
     cursor: pointer;
 }
+/* @media only screen and (min-width: 320px) and (max-width: 479px) {
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+} */

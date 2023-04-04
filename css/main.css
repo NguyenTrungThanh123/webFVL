@@ -1,18 +1,25 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
+/* .main{
+    padding-top: 64px;
+} */
+/* h1,h2,h3,h4,h5,h6,p,ol,ul,li,a{
+    margin: 0px;
+} */
 #logo-FVL
 {
-    height: 36px;
-    width: 151.7px;
+    height: 30px;
+    width: 126.405px;
     padding-right: 10px;
     padding-left: 10px;
+    margin: 10px;
 }
 #logo-TPL
 {
-    height: 36px;
-    width: 87.9px;
+    height: 30px;
+    width: 73.25px;
 }
 
 .nav_image{
@@ -20,19 +27,19 @@
     left: 10;
     margin: auto;
 }
-.navbar{
+/* .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px;
+    margin: 0px !important;
     position: fixed;
     width: 100%;
-   border-bottom: 1px solid rgb(241, 239, 239);
-   padding: 6px 0px;
-   line-height: 3rem;
-   background-color: #fff;
+    border-bottom: 1px solid rgb(241, 239, 239);
+    padding: 6px 0px;
+    line-height: 3rem;
+    background-color: #fff;
    
-}
+} */
 .nav_pc{
     height: auto;
     width: 100%;
@@ -47,11 +54,15 @@ a{
 }
 .nav_pc .nav_list a{
     text-transform: uppercase;
-    padding: 10px 20px;
+    padding: 10px 15px;
     color: #333;
     display: block;
     font-weight: bold ;
     font-size: 1.3rem;
+    
+}
+.nav_pc .nav_list a:hover{
+    text-decoration: none;
     
 }
 ul{
@@ -119,50 +130,19 @@ li a{
     opacity: 1;
 }
 header.sticky{
-        background:#fff;
-        opacity: 1;
-        color: #333;
-        padding: 0px 0px;
-        box-shadow: 0 15px 20px rgb(#fff, #fff, #fff,0.5);
-        animation: fadeIn linear 0.2s;
-    
-}
-header.sticky #logo-FVL{
-    height: 30px;
-    width: 126.405px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-
-
-header.sticky #logo-TPL
-{
-    height: 30px;
-    width: 73.25px;
-}
-
-
-header.sticky .nav_list a{
+    background:#fff;
+    opacity: 1;
     color: #333;
-   
+    padding: 0px 0px;
+    box-shadow: 0 15px 20px rgb(#fff, #fff, #fff,0.5);
+    animation: fadeIn linear 0.2s;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin: 0;
 }
 .nav_list .nav_link a:hover{
     color: rgb(221, 51, 9);
-}
-
-
-
-
-/* Banner */
-.banner{
-    background: url(../images/wrapper_header_bg.jpg) no-repeat;
-    min-height: 340px;
-    width: 100%;
-    background-size: 1202px;
-    background-position-x: 1.2rem;
-    margin-top: 56px;
-
 }
 
 
@@ -180,7 +160,6 @@ video{
     align-items: center;
     text-align: center;
     background-color: rgb(79, 79, 79);
-    border-radius: 5px;
     margin-top: 5px;
     padding: 10px 10px;
 }
@@ -202,8 +181,12 @@ video{
 }
 .footer .info h4{
     font-size: 1.6rem;
+<<<<<<< HEAD
     padding-bottom: 15px;
     padding-top: 10px;
+=======
+    padding-bottom: 28px;
+>>>>>>> e16595958758a88cf8da4b10e1efb4eb51f8f796
     border-bottom: 3px solid #dfdfdf;
     color: #f26522;
     line-height: 2rem;
@@ -222,10 +205,10 @@ video{
     font-size: 1.3rem;
     line-height: 1.6rem;
 }
-.footer_link-FVL{
+.footer_link{
     padding: 10px 12px;
 }
-.footer_link-TPL{
+.footer_link{
     padding-bottom: 10px;
 }
 .footer_logo-facebook a {
@@ -239,12 +222,16 @@ video{
 .footer_logo-facebook a:hover {
     cursor: pointer;
     color: #f26522;
+    text-decoration: none;
 }
 .footer_btn-apply{
     background-color: #f26522;
     padding: 10px 10px;
     border-radius: 5px;
     margin-top: 10px;
+}
+.footer_btn-apply:hover{
+    background-color: #f3925b;
     
 }
 .footer_btn-apply a{
@@ -254,6 +241,10 @@ video{
     display: block;
     font-weight: 500;
 }
+.footer_btn-apply a:hover{
+    color: #fff;
+    text-decoration: none;
+}
 .footer_img-iso img{
     width: 100px;
     height: auto;
@@ -261,16 +252,16 @@ video{
     margin: auto;
     margin-top: 30px;
 }
-span{
+/* span{
     font-weight: bold;
     color:#4f4f4f;
     font-size: 1.3rem;
-}
-p{
+} */
+/* p{
     font-size: 1.3rem ;
     line-height: 2rem;
     text-align: justify;
-}
+} */
 .footer p,
 .footer p a{
     color: #3d3c3c;
@@ -278,7 +269,14 @@ p{
 }
 .footer p a:hover{
     color: #a7a3a3;
+    text-decoration: none;
 }
+
+.privacy p{
+    text-align: center;
+    padding-top: 10px;
+}
+
 
 
 @media (max-width: 1023px){
