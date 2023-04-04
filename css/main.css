@@ -24,13 +24,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px;
+    margin: 0px !important;
     position: fixed;
     width: 100%;
-   border-bottom: 1px solid rgb(241, 239, 239);
-   padding: 6px 0px;
-   line-height: 3rem;
-   background-color: #fff;
+    border-bottom: 1px solid rgb(241, 239, 239);
+    padding: 6px 0px;
+    line-height: 3rem;
+    background-color: #fff;
    
 }
 .nav_pc{
@@ -47,11 +47,15 @@ a{
 }
 .nav_pc .nav_list a{
     text-transform: uppercase;
-    padding: 10px 20px;
+    padding: 10px 15px;
     color: #333;
     display: block;
     font-weight: bold ;
     font-size: 1.5rem;
+    
+}
+.nav_pc .nav_list a:hover{
+    text-decoration: none;
     
 }
 ul{
@@ -119,19 +123,21 @@ li a{
     opacity: 1;
 }
 header.sticky{
-        background:#fff;
-        opacity: 1;
-        color: #333;
-        padding: 0px 0px;
-        box-shadow: 0 15px 20px rgb(#fff, #fff, #fff,0.5);
-        animation: fadeIn linear 0.2s;
-    
+    background:#fff;
+    opacity: 1;
+    color: #333;
+    padding: 0px 0px;
+    box-shadow: 0 15px 20px rgb(#fff, #fff, #fff,0.5);
+    animation: fadeIn linear 0.2s;
+    position: fixed;
+    z-index: 1;
 }
 header.sticky #logo-FVL{
     height: 30px;
     width: 126.405px;
     padding-right: 10px;
     padding-left: 10px;
+    margin: 10px;
 }
 
 
@@ -152,20 +158,6 @@ header.sticky .nav_list a{
 }
 
 
-
-
-/* Banner */
-.banner{
-    background: url(../images/wrapper_header_bg.jpg) no-repeat;
-    min-height: 340px;
-    width: 100%;
-    background-size: 1202px;
-    background-position-x: 1.2rem;
-    margin-top: 56px;
-
-}
-
-
 video{
     position: relative;
     z-index: -1;
@@ -180,7 +172,6 @@ video{
     align-items: center;
     text-align: center;
     background-color: rgb(79, 79, 79);
-    border-radius: 5px;
     margin-top: 5px;
     padding: 10px 10px;
 }
@@ -202,7 +193,7 @@ video{
 }
 .footer .info h4{
     font-size: 1.6rem;
-    padding-bottom: 26px;
+    padding-bottom: 28px;
     border-bottom: 3px solid #dfdfdf;
     color: #f26522;
 }
@@ -219,10 +210,10 @@ video{
     font-size: 1.3rem;
     line-height: 1.6rem;
 }
-.footer_link-FVL{
+.footer_link{
     padding: 10px 12px;
 }
-.footer_link-TPL{
+.footer_link{
     padding-bottom: 10px;
 }
 .footer_logo-facebook a {
@@ -236,12 +227,16 @@ video{
 .footer_logo-facebook a:hover {
     cursor: pointer;
     color: #f26522;
+    text-decoration: none;
 }
 .footer_btn-apply{
     background-color: #f26522;
     padding: 10px 10px;
     border-radius: 5px;
     margin-top: 10px;
+}
+.footer_btn-apply:hover{
+    background-color: #f3925b;
     
 }
 .footer_btn-apply a{
@@ -250,6 +245,10 @@ video{
     text-align: center;
     display: block;
     font-weight: 500;
+}
+.footer_btn-apply a:hover{
+    color: #fff;
+    text-decoration: none;
 }
 .footer_img-iso img{
     width: 100px;
@@ -275,6 +274,14 @@ p{
 }
 .footer p a:hover{
     color: #a7a3a3;
+    text-decoration: none;
+}
+
+.privacy p{
+    text-align: center;
+}
+ul{
+    margin:0px;
 }
 
 
