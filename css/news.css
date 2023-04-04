@@ -30,6 +30,13 @@
     font-weight: 700;
 
 }
+.bannernews{
+    background-color: #c6dbdc;
+}
+.update-content-event{
+    background-image: url(../images/news/SL_112119_25250_44.jpg);
+
+}
 .title-iframe p{
     font-size: 1.3rem;
 
@@ -44,7 +51,7 @@
     -webkit-box-orient: vertical;
 }
 .content-event{
-    padding: 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
     margin: 10px 0;
     height: 450px;
@@ -63,12 +70,11 @@
     text-decoration: none;
     color: #F1612D;
 }
-.update-content-event h1{
+.bannernews h1{
     text-align: center;
     color: #f26522;
-    background-color: #F0F0F0;
     font-weight: bold;
-    margin-top: 0;
+    margin-top: 30px;
 }
 .pagination-container {
     width: calc(100% - 2rem);
@@ -78,7 +84,10 @@
     padding: 1rem 0;
     justify-content: center;
 }
-  
+#paginated-list{
+    margin-left: -30px;
+    margin-right: 10px;
+}
 .pagination-button{
     font-size: 16.5px;
     cursor: pointer;

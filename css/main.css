@@ -1,24 +1,25 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
-.main{
+} */
+/* .main{
     padding-top: 64px;
-}
-h1,h2,h3,h4,h5,h6,p,ol,ul,li,a{
+} */
+/* h1,h2,h3,h4,h5,h6,p,ol,ul,li,a{
     margin: 0px;
-}
+} */
 #logo-FVL
 {
-    height: 36px;
-    width: 151.7px;
+    height: 30px;
+    width: 126.405px;
     padding-right: 10px;
     padding-left: 10px;
+    margin: 10px;
 }
 #logo-TPL
 {
-    height: 36px;
-    width: 87.9px;
+    height: 30px;
+    width: 73.25px;
 }
 
 .nav_image{
@@ -26,7 +27,7 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li,a{
     left: 10;
     margin: auto;
 }
-.navbar{
+/* .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +39,7 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li,a{
     line-height: 3rem;
     background-color: #fff;
    
-}
+} */
 .nav_pc{
     height: auto;
     width: 100%;
@@ -137,27 +138,8 @@ header.sticky{
     animation: fadeIn linear 0.2s;
     position: fixed;
     z-index: 1;
-}
-header.sticky #logo-FVL{
-    height: 30px;
-    width: 126.405px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: 10px;
-}
-
-
-
-header.sticky #logo-TPL
-{
-    height: 30px;
-    width: 73.25px;
-}
-
-
-header.sticky .nav_list a{
-    color: #333;
-   
+    width: 100%;
+    margin: 0;
 }
 .nav_list .nav_link a:hover{
     color: rgb(221, 51, 9);
@@ -264,16 +246,16 @@ video{
     margin: auto;
     margin-top: 30px;
 }
-span{
+/* span{
     font-weight: bold;
     color:#4f4f4f;
     font-size: 1.3rem;
-}
-p{
+} */
+/* p{
     font-size: 1.3rem ;
     line-height: 2rem;
     text-align: justify;
-}
+} */
 .footer p,
 .footer p a{
     color: #3d3c3c;

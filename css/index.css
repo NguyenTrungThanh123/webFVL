@@ -38,11 +38,12 @@
     margin: auto;
     object-fit: cover;
 }
-.sectionbar{
-    padding: 0px 10px;  
-
+.title1{
+    background-image: url("../images/Index/orangebg.jpg");
 }
-
+.title1 p, h1, span{
+    color: #f0f0f0;
+}
 .sectionbar .title-first{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -74,7 +75,14 @@
     opacity: 0.9;
     color: #f26522;
 }
-
+.paragraph-right{
+    width: 50%;
+    float: right;
+}
+.paragraph{
+    width: 50%;
+    float: left;
+}
 #para-actor{
     padding-top: 0px;
     padding-bottom: 20px;
