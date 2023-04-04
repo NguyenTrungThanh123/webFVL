@@ -51,7 +51,7 @@ a{
     color: #333;
     display: block;
     font-weight: bold ;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     
 }
 ul{
@@ -202,13 +202,16 @@ video{
 }
 .footer .info h4{
     font-size: 1.6rem;
-    padding-bottom: 26px;
+    padding-bottom: 15px;
+    padding-top: 10px;
     border-bottom: 3px solid #dfdfdf;
     color: #f26522;
+    line-height: 2rem;
 }
 .footer .info .company_name{
     font-size: 1.6rem;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 0px;
     border-bottom: 3px solid #dfdfdf;
     color: #f26522;
 }
