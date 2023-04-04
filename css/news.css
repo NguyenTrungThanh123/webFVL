@@ -14,6 +14,7 @@
 }
 .iframe-news p{
     line-height: 2rem;
+    padding: 5px 0px;
 }
 .update-content-event img{
     display: block;
