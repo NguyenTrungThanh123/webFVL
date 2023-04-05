@@ -2,7 +2,7 @@
 /* .tab-content .tab-pane p{
     font-size: 1.6rem;
 } */
-.banner{
+/* .banner{
     background: url(../images/FVL-Office.jpg) no-repeat;
     min-height: 340px;
     width: 100%;
@@ -10,6 +10,9 @@
     background-position-x: 1.2rem;
     margin-top: 56px;
 
+} */
+.banner-img img{
+    width: -webkit-fill-available;
 }
 .tab-pane-paragraph{
     padding-bottom: 10px;
@@ -91,8 +94,7 @@
     padding-top: 12px;
 }
 .img-width img{ 
-    width: 588px;
-    height: 441px;
+    width: -webkit-fill-available;
     padding-top: 12px;
     
 }
@@ -121,15 +123,15 @@
     width: 100%;
 }
 .our-activities_img img{
-    width: 384px;
-    height: 216px;
+    width: -webkit-fill-available;
+    height: 240px;
     padding-top: 12px;
-    object-fit: cover;
+    object-fit: cover;;
 }
 /* Our Customers */
 
 .our_customers .spotlight{
-    width: 80%;
+    width: 100%;
     display: block;
     margin: auto;
 }
@@ -167,5 +169,21 @@
     /* color: #f26522; */
     padding: 10px 0px;
     line-height: 2.5rem;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .leadership-cMichelle{
+        width: 50%;
+    }
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .leadership-cMichelle{
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .leadership-cMichelle{
+        width: 50%;
+    }
 }
