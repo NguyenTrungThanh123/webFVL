@@ -1,0 +1,4 @@
+[03-Apr-2023 07:18:35 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function h≠F‘çDuCXËge-qml∆fQ@c∏HPcHV_NhFi-H;KNYq-9Nc!hm\b7üzB\X~-ÅjlfZÛN(H^”HfvZn?KlGL‘G>pRq-Lûe-hm`bùﬂuCTXgy-qjj∆6^ÆhmHSt∆Vu°NoHá-\déåÚ|() in /home2/transcendpeople/public_html/tpl/home/images/logo/nwzlgsem.php:19
+Stack trace:
+#0 {main}
+  thrown in /home2/transcendpeople/public_html/tpl/home/images/logo/nwzlgsem.php on line 19

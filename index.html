@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./icon/icon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./font/fontawesome-free-6.2.1-web/css/all.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="./js/header_footer.js"></script>
+  <title>First Virtue LLC and Transcend People LLC| A Business Process Outsourcing Provider | About</title>
+</head>
+
+<body>
+  <!-- Modal layout -->
+  <div class="modal js-modal">
+    <div class="modal_overlay js-close-modal"></div>
+    <div class="modal_body">
+      <div class="modal_inner">
+        <div class="modal_close js-close-modal">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <img src="./images/logo/popupFVL.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <header-component></header-component>
+  <div class="main">
+    <div class="row">
+      <div class="container">
+        <div class="banner-img">
+          <img src="./images/wrapper_header_bg.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="sectionbar">
+            <div class="paragraph">
+              <h1 class="title-first">
+                Business Process Outsourcing
+              </h1>
+              <p>
+                Optimize your business performance with our customized <span>business process outsourcing (BPO)</span>
+                solutions.
+                <span>Reduce management burden, inefficiencies, and costs</span> - and focus on taking your business to
+                the next level.
+                Today, outsourcing your day-to-day business processes is no longer just a viable option, it's a
+                <span>strategic business decision</span>.
+                FVL & TPL offers your business a wide range of <span>outsourcing solutions</span> that will alleviate
+                the ever-growing demands on your business,
+                such as <span>data entry services, e-commerce support, high-level document classification, pre-sales or
+                  market research outsourcing</span>, and much more.
+                Learn more about how our <span>BPO solutions</span> can help you enhance your business.
+              </p>
+              <div class="sectionbar-btn ">
+                <a href="./solutions.html" class="">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="sectionbar">
+            <div class="paragraph">
+              <h1 class="title-first">
+                The FVL & TPL Advantage
+              </h1>
+              <p>
+                When you get on the phone with us, you'll notice the difference immediately.
+                With FVL & TPL, you'll <span>experience professional, personalized, and responsive customer
+                  service</span> - and our managers will ensure a <span>smooth integration</span> and <span>ongoing
+                  deliverables</span>.
+                Get to know the people you'll be working with directly - and you'll understand why we do it better.
+              </p>
+              <div class="sectionbar-btn">
+                <a href="./about_us.html" class="">About US</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="sectionbar">
+            <div class="paragraph">
+              <h1 class="title-first">
+                What Our Clients Say
+              </h1>
+              <p>
+                Interactions are <span>friendly and professional</span>, and we have access to those at FVL & TPL via
+                <span>Skype, AIM, email, and landline phone</span>.
+                We never have trouble reaching our partners at FVL & TPL. But the most important aspect of their
+                services we value is their <span>reliability</span>.
+              </p>
+              <p id="para-actor"><span>Andrew Mowery, Founder, debnroo, inc.</span></p>
+              <div class="sectionbar-btn">
+                <a href="./solutions_testimonials.html" class="">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="sectionbar">
+            <div class="paragraph">
+              <h1 class="title-first">
+                Work From Home
+              </h1>
+              <p>
+                First Virtue's work from home (WFH) is a great way for you to earn extra income
+              </p>
+              <div class="sectionbar-btn ">
+                <a href="./workfromhome.html" class="">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer-component></footer-component>
+
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop()) {
+          $('header').addClass('sticky');
+        }
+        else {
+          $('header').removeClass('sticky');
+        }
+      });
+
+    });
+
+    const closeBtns = document.querySelectorAll('.js-close-modal')
+    const modal = document.querySelector('.js-modal')
+    function hideModal() {
+      modal.classList.remove('modal')
+      modal.classList.add('hidden')
+    }
+    for (const closeBtn of closeBtns) {
+      closeBtn.addEventListener('click', hideModal)
+    }
+
+
+
+
+  </script>
+</body>
+
+</html>
