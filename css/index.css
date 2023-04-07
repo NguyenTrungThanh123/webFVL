@@ -44,8 +44,14 @@
     color: black;
     font-size: 1.5rem;
 }
-.banner-img img {
+.banner{
+    background: url(../images/wrapper_header_bg.jpg) no-repeat;
+    min-height: 419px;
     width: -webkit-fill-available;
+    /* background-size: 1480px;
+    background-position-x: 1.2rem; */
+    margin-top: 64px;
+
 }
 
 .icon-facebook {

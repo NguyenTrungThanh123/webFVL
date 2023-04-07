@@ -5,14 +5,11 @@
 .banner{
     background: url(../images/FVL-Office.jpg) no-repeat;
     min-height: 412px;
-    width: 100%;
-    background-size: 1480px;
-    background-position-x: 1.2rem;
+    width: -webkit-fill-available;
+    /* background-size: 1480px;
+    background-position-x: 1.2rem; */
     margin-top: 64px;
 
-}
-.banner-img img{
-    width: -webkit-fill-available;
 }
 .tab-pane-paragraph{
     padding-bottom: 10px;
